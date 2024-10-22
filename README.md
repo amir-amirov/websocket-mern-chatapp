@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project is a messaging application built using the MERN stack (MongoDB, Express.js, React, and Node.js) with integrated WebSocket functionality. It allows real-time messaging and communication between users, providing a dynamic and interactive experience.
+This project is a messaging application built using the MERN stack (MongoDB, Express.js, React, and Node.js) with integrated WebSocket functionality. It allows real-time messaging and communication between users, providing a dynamic and interactive experience. The MongoDB has two collections: users and messages. Everytime there is modification in "messages" collection, WebSocket broadcast updated "messages" collection to all connected users.
 
 ## Methods
 
